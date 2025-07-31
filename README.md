@@ -11,7 +11,7 @@ pip install django-related-field-display
 Add `RelatedFieldDisplayMixin` to your admin class:
 ```python
 from django.contrib import admin
-from related_field_display import RelatedFieldDisplayMixin
+from related_field_display.admin import RelatedFieldDisplayMixin
 from .models import YourModel
 
 @admin.register(YourModel)
