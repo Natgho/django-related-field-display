@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-related-field-display',
-    version='0.1.2',
+    version='0.1.3',
     description='A Django admin mixin for displaying related fields with clickable links.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
